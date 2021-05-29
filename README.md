@@ -14,4 +14,4 @@ In this repo, you will find starter files for all homework assignments for CS 41
 
 ## Homework 5 - JavaScript / Events / DOM
 
-## Homework 6 - JavaScript / Frameworks
+## Homework 6 - JavaScript / JS Libraries
