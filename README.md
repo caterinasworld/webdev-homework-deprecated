@@ -6,8 +6,12 @@ In this repo, you will find starter files for all homework assignments for CS 41
 
 ## Homework 1 - HTML / Accessibility
 
-## Homework 2 - CSS / Layout / Bootstrap
+## Homework 2 - CSS / Layout 
 
-## Homework 3 - JavaScript 
+## Homework 3 - Bootstrap 
 
 ## Homework 4 - JavaScript
+
+## Homework 5 - JavaScript / Events / DOM
+
+## Homework 6 - JavaScript / Frameworks
