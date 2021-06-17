@@ -1,4 +1,4 @@
-## Setup Instructions
+## Homework 0 - Git / Setup 
 
 ### Installation
 
