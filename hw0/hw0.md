@@ -2,21 +2,21 @@
 
 ### Installation
 
-1. Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-2. Download VS Code as your code editor: https://code.visualstudio.com/
+2. Download [VS Code](https://code.visualstudio.com/) as your code editor.
 
-   - Launch VS Code from the command line: https://code.visualstudio.com/docs/editor/command-line#_launching-from-command-line
+   - Set Up VS Code to [launch from the command line](https://code.visualstudio.com/docs/editor/command-line#_launching-from-command-line).
 
-   - Install the following extensions to start with:
+   - Install the following extensions:
      - Live Server
      - Git Lens
      - Bracket Pair Colorizer
      - Prettier
 
-3. Sign up for a GitHub account and the GitHub Student Pack: https://education.github.com/pack
+3. Sign up for a GitHub account and the [GitHub Student Pack](https://education.github.com/pack).
 
-4. Set up SSH keys for GitHub: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh
+4. Set up [SSH keys for GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 ### Setting up the Homework Repo
 
