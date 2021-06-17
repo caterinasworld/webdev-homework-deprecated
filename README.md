@@ -13,7 +13,9 @@ In this repo, you will find starter files for all homework assignments for CS 41
 
 Check Canvas for more information on each assignment
 
-### Setting Up This Repo
+### Setting Up The Homework Repo
+
+For more detailed instructions on how to set up the homework repo, take a look at the [setup.md] file or the [homework 0 - setup] instructions.
 
 1. Clone the repo.
 
