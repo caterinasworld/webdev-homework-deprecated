@@ -15,7 +15,7 @@ Check Canvas for more information on each assignment
 
 ### Setting Up The Homework Repo
 
-For more detailed instructions on how to set up the homework repo, take a look at the [hw0 > hw0.md](https://github.com/caterinasworld/webdev-homework/blob/main/hw0/hw0.md) file.
+For more detailed instructions on how to set up the homework repo, take a look at the [hw0/hw0.md](https://github.com/caterinasworld/webdev-homework/blob/main/hw0/hw0.md) file.
 
 1. Clone the repo.
 
