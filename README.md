@@ -6,8 +6,8 @@ In this repo, you will find starter files for all homework assignments for CS 41
 
 - [Homework 0 - Git / Setup](https://github.com/caterinasworld/webdev-homework/blob/main/hw0/hw0.md)
 - Homework 1 - HTML / Accessibility
-- Homework 2 - CSS  
-- Homework 3 - CSS Layout 
+- Homework 2 - CSS
+- Homework 3 - CSS Layout
 - Homework 4 - JavaScript
 - Homework 5 - JavaScript / APIs
 
