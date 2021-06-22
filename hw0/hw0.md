@@ -50,16 +50,16 @@ upstream	https://github.com/caterinasworld/webdev-homework.git (push)
 
 3. Navigate to your GitHub account and create a new **private repo**, i.e.webdev-homework.
 
-4. Add collaborator(s). Go to 'Settings' --> 'Manage Access' --> click the 'Invite a collaborator' button.
+4. Add collaborator(s). Go to 'Settings' --> 'Manage Access' --> click the 'Invite a collaborator' button. Add Caterina (@caterinasworld) and the TA (info TBA) as collaborators on this repo.
 
 5. Add the GitHub repo that you created as a remote.
 
 ```console
-$ git remote add origin https://github.com/student/webdev-homework.git
+$ git remote add origin https://github.com/<student>/webdev-homework.git
 
 $ git remote -v
-origin	  https://github.com/student/webdev-homework.git (fetch)
-origin	  https://github.com/student/webdev-homework.git  (push)
+origin	  https://github.com/<student>/webdev-homework.git (fetch)
+origin	  https://github.com/<student>/webdev-homework.git  (push)
 upstream	hhttps://github.com/caterinasworld/webdev-homework.git (fetch)
 upstream	https://github.com/caterinasworld/webdev-homework.git (push)
 ```
