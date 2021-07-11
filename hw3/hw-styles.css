@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+/* Code for exercise 01-flex */
+
+/* Code for exercise 02-flex */
+
+.flex-container-2 {
+  height: 400px;
+}
+
+/* Code for exercise 03-grid */
+
+/* Code for exercise 04-grid */
+
+/* Code for exercise 05-bootstrap-grid */
+
+.bootstrap-grid .row > * {
+  height: 100px;
+  border: 1px solid var(--white);
+  padding: 10px;
+}
+
+.row1 > * {
+  background-color: var(--purple);
+}
+
+.row2 > * {
+  background-color: var(--navy);
+}
+
+.row3 > * {
+  background-color: var(--teal);
+}
+
+.row4 > * {
+  background-color: var(--green);
+}
+
+/* Code for exercise 06-bootstrap-form */
+
+form {
+  width: 400px;
+}
