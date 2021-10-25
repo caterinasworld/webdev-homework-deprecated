@@ -1,15 +1,20 @@
-const catculateAge = (birthday) => {
+const calculateAge = (birthday) => {
   // Given a date, return the age of the person with that birthday, in years, months, and days
 };
 
-// Date formats
-// new Date('December 17, 1995')
-// new Date('1995-12-17')
-// new Date(1995, 11, 17)
+// Date() formats
+// new Date('December 1, 1995')
+// new Date('2008-1-11')
+// new Date(2020, 3, 16)
 // new Date(628021800000)
 
-console.log(catculateAge(birthday));
-// Age: 25 years, 4 months, 3 days
-// Age: 25 years, 1 day
-// Age: 4 months, 10 days
-// Error: invalid input provided
+console.log(calculateAge(1635176171332, 'May 1, 1995'));
+// Age: 26 years, 5 months
+console.log(calculateAge(1635176171332, '1975-8-11'));
+// Age: 46 years, 2 months
+console.log(calculateAge(1635176171332, 2021, 5, 23));
+// Age: 4 months
+console.log(calculateAge(1635176171332, 1031814000000));
+// Age: 19 years, 1 month
+console.log(calculateAge(1635176171332, 'birthdate'));
+// Error: Invalid input provided.
