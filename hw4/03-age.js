@@ -12,7 +12,7 @@ console.log(calculateAge(1635176171332, 'May 1, 1995'));
 // Age: 26 years, 5 months
 console.log(calculateAge(1635176171332, '1975-8-11'));
 // Age: 46 years, 2 months
-console.log(calculateAge(1635176171332, 2021, 5, 23));
+console.log(calculateAge(1635176171332, [2021, 5, 23]));
 // Age: 4 months
 console.log(calculateAge(1635176171332, 1031814000000));
 // Age: 19 years, 1 month
