@@ -1,8 +1,8 @@
-const calculateAge = (birthday) => {
-  // Given a date, return the age of the person with that birthday, in years, months, and days
+const calculateAge = (date1, date2) => {
+  // Given two dates, calculate and return the amount of time in between, in years and months
 };
 
-// Date() formats
+// Date() formats:
 // new Date('December 1, 1995')
 // new Date('2008-1-11')
 // new Date(2020, 3, 16)
