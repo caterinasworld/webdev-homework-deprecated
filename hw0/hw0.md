@@ -1,4 +1,4 @@
-## Homework 0 - Git / Setup 
+## Homework 0 - Git / Setup
 
 ### Installation
 
@@ -18,18 +18,21 @@
 
 4. Set up [SSH keys for GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
 
-### Setting up the Homework Repo
+### Setting up the Homework Repo (with SSH)
 
 1. Navigate to your preferred folder and clone the repo.
 
 ```console
-$ git clone https://github.com/caterinasworld/webdev-homework webdev-homework
+$ git clone git@github.com:caterinasworld/webdev-homework.git webdev-homework
+
 Cloning into 'webdev-homework'...
-remote: Enumerating objects: 8, done.
-remote: Counting objects: 100% (8/8), done.
-remote: Compressing objects: 100% (6/6), done.
-remote: Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (8/8), done.
+remote: Enumerating objects: 163, done.
+remote: Counting objects: 100% (163/163), done.
+remote: Compressing objects: 100% (93/93), done.
+remote: Total 163 (delta 80), reused 136 (delta 61), pack-reused 0
+Receiving objects: 100% (163/163), 68.15 KiB | 2.20 MiB/s, done.
+Resolving deltas: 100% (80/80), done.
+
 ```
 
 2. Navigate into the newly created `webdev-homework` folder and rename the remote.
@@ -38,35 +41,36 @@ Unpacking objects: 100% (8/8), done.
 $ cd webdev-homework/
 
 $ git remote -v
-origin	  https://github.com/caterinasworld/webdev-homework.git (fetch)
-origin	  https://github.com/caterinasworld/webdev-homework.git (push)
+origin		git@github.com:caterinasworld/webdev-homework.git (fetch)
+origin 	  git@github.com:caterinasworld/webdev-homework.git (push)
 
-$ git remote rename origin upstream
-
-$ git remote -v
-upstream	https://github.com/caterinasworld/webdev-homework.git (fetch)
-upstream	https://github.com/caterinasworld/webdev-homework.git (push)
-```
-
-3. Navigate to your GitHub account and create a new **private repo**, i.e.webdev-homework.
-
-4. Add collaborator(s). Go to 'Settings' --> 'Manage Access' --> click the 'Invite a collaborator' button. Add Caterina (@caterinasworld) and the TA (info TBA) as collaborators on this repo.
-
-5. Add the GitHub repo that you created as a remote.
-
-```console
-$ git remote add origin https://github.com/<student>/webdev-homework.git
+$ git remote rename origin homework
 
 $ git remote -v
-origin	  https://github.com/<student>/webdev-homework.git (fetch)
-origin	  https://github.com/<student>/webdev-homework.git  (push)
-upstream	hhttps://github.com/caterinasworld/webdev-homework.git (fetch)
-upstream	https://github.com/caterinasworld/webdev-homework.git (push)
+homework	git@github.com:caterinasworld/webdev-homework.git (fetch)
+homework 	git@github.com:caterinasworld/webdev-homework.git (push)
 ```
 
-6. Update the branch name to 'main'.
+3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev. Do not create a README file, because there’s already one in the repository you have cloned.
+
+4. Add your TA as a collaborator. Go to ‘Settings’ → ‘Manage Access’ → click the “Invite a collaborator’ button. Search for your TA’s username.
+
+5. Add the private GitHub repository that you created as a remote.
 
 ```console
+$ git remote add origin git@github.com:student-username/student-repo-webdev.git
+
+$ git remote -v
+homework	git@github.com:caterinasworld/webdev-homework.git (fetch)
+homework	git@github.com:caterinasworld/webdev-homework.git (push)
+origin		git@github.com:student-username/student-repo-webdev.git (fetch)
+origin		git@github.com:student-username/student-repo-webdev.git (push)
+```
+
+6. Check the branch name. If it's not ‘main,’ update the branch name to ‘main’.
+
+```console
+$ git branch
 $ git branch -M main
 ```
 
@@ -74,13 +78,14 @@ $ git branch -M main
 
 ```console
 $ git push -u origin main
-Enumerating objects: 8, done.
-Counting objects: 100% (8/8), done.
+Enumerating objects: 163, done.
+Counting objects: 100% (163/163), done.
 Delta compression using up to 4 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (8/8), 2.67 KiB | 1.33 MiB/s, done.
-Total 8 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas: 100% (1/1), done.
+Compressing objects: 100% (74/74), done.
+Writing objects: 100% (163/163), 68.15 KiB | 13.63 MiB/s, done.
+Total 163 (delta 80), reused 163 (delta 80), pack-reused 0
+remote: Resolving deltas: 100% (80/80), done.
+To github.com:caterinasworld/testing.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
@@ -89,4 +94,10 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 ```console
 $ git push
+```
+
+9. When there are updates to the homework starter files, pull the new updates from the ‘homework’ remote.
+
+```console
+$ git pull homework main
 ```
