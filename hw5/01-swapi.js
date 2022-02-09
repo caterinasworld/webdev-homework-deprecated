@@ -144,7 +144,7 @@ const starships = [
 ];
 
 const mapStarships = (input) => {
-  // Return an array with the name, manufacturer, and cost of each ship
+  // Return an array with the name, manufacturer, and cost (if not unknown) of each ship
   // Format: "Star Destroyer, manufactured by Kuat Drive Yards - cost: 150,000,000 credits"
 
   return 'mapStarships';
@@ -171,9 +171,9 @@ console.log(mapStarships(starships));
 //   'Millennium Falcon, manufactured by Corellian Engineering Corporation - cost: 100,000 credits',
 //   'Y-wing, manufactured by Koensayr Manufacturing - cost: 134,999 credits',
 //   'X-wing, manufactured by Incom Corporation - cost: 149,999 credits',
-//   'TIE Advanced x1, manufactured by Sienar Fleet Systems - cost: NaN credits',
+//   'TIE Advanced x1, manufactured by Sienar Fleet Systems',
 //   'Executor, manufactured by Kuat Drive Yards, Fondor Shipyards - cost: 1,143,350,000 credits',
-//   'Rebel transport, manufactured by Gallofree Yards, Inc. - cost: NaN credits'
+//   'Rebel transport, manufactured by Gallofree Yards, Inc.'
 // ]
 
 console.log(filterStarships(starships));
