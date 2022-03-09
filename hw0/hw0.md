@@ -41,14 +41,14 @@ Resolving deltas: 100% (80/80), done.
 $ cd webdev-homework/
 
 $ git remote -v
-origin		git@github.com:caterinasworld/webdev-homework.git (fetch)
-origin 	  git@github.com:caterinasworld/webdev-homework.git (push)
+origin   git@github.com:caterinasworld/webdev-homework.git (fetch)
+origin   git@github.com:caterinasworld/webdev-homework.git (push)
 
 $ git remote rename origin homework
 
 $ git remote -v
-homework	git@github.com:caterinasworld/webdev-homework.git (fetch)
-homework 	git@github.com:caterinasworld/webdev-homework.git (push)
+homework    git@github.com:caterinasworld/webdev-homework.git (fetch)
+homework    git@github.com:caterinasworld/webdev-homework.git (push)
 ```
 
 3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev. Do not create a README file, because there’s already one in the repository you have cloned.
@@ -61,10 +61,10 @@ homework 	git@github.com:caterinasworld/webdev-homework.git (push)
 $ git remote add origin git@github.com:student-username/student-repo-webdev.git
 
 $ git remote -v
-homework	git@github.com:caterinasworld/webdev-homework.git (fetch)
-homework	git@github.com:caterinasworld/webdev-homework.git (push)
-origin		git@github.com:student-username/student-repo-webdev.git (fetch)
-origin		git@github.com:student-username/student-repo-webdev.git (push)
+homework    git@github.com:caterinasworld/webdev-homework.git (fetch)
+homework    git@github.com:caterinasworld/webdev-homework.git (push)
+origin   git@github.com:student-username/student-repo-webdev.git (fetch)
+origin   git@github.com:student-username/student-repo-webdev.git (push)
 ```
 
 6. Check the branch name. If it's not ‘main,’ update the branch name to ‘main’.
