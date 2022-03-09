@@ -209,4 +209,4 @@ console.log(filterStarships(starships));
 // ]
 
 console.log(reduceStarships(starships));
-// The cost of all starchips is 1,001,297,474,998 credits
+// The cost of all starships is 1,001,297,474,998 credits
