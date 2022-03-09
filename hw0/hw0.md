@@ -51,11 +51,16 @@ homework    git@github.com:caterinasworld/webdev-homework.git (fetch)
 homework    git@github.com:caterinasworld/webdev-homework.git (push)
 ```
 
-3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev. Do not create a README file, because there’s already one in the repository you have cloned.
+3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev. 
 
-4. Add your TA as a collaborator. Go to ‘Settings’ → ‘Manage Access’ → click the “Invite a collaborator’ button. Search for your TA’s username.
+   Important: Do not create a README file. There’s already one in the repository you have cloned.
 
-5. Add the private GitHub repository that you created as a remote.
+4. Add your TA as a collaborator. 
+   
+   Go to ‘Settings’ → ‘Manage Access’ → click the “Invite a collaborator’ button. Search for your TA’s username.
+   Check Canvas for your TA's username on GitHub.
+
+5. Add the private GitHub repository you created as a remote.
 
 ```console
 $ git remote add origin git@github.com:student-username/student-repo-webdev.git
@@ -71,10 +76,11 @@ origin   git@github.com:student-username/student-repo-webdev.git (push)
 
 ```console
 $ git branch
+
 $ git branch -M main
 ```
 
-7. Push the files you cloned into your newly created private remote.
+7. Push the files you cloned into the newly created private remote repository.
 
 ```console
 $ git push -u origin main
