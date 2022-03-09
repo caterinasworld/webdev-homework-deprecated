@@ -18,7 +18,7 @@
 
 4. Set up [SSH keys for GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
 
-### Setting up the Homework Repo
+### Setting up the Homework Repo (with SSH)
 
 1. Navigate to your preferred folder and clone the repo.
 
@@ -67,7 +67,7 @@ origin		git@github.com:student-username/student-repo-webdev.git (fetch)
 origin		git@github.com:student-username/student-repo-webdev.git (push)
 ```
 
-6. Check the branch name. If not ‘main,’ update the branch name to ‘main’.
+6. Check the branch name. If it's not ‘main,’ update the branch name to ‘main’.
 
 ```console
 $ git branch
