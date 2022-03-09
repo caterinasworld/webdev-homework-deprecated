@@ -7,7 +7,7 @@ In this repository, you will find starter files for the homework assignments for
 - [Homework 0 - Git / Setup](https://github.com/caterinasworld/webdev-homework/blob/main/hw0/hw0.md)
 - Homework 1 - HTML / Accessibility
 - Homework 2 - CSS
-- Homework 3 - CSS Layout
+- Homework 3 - Flexbox, CSS Grid, Bootstrap
 - Homework 4 - JavaScript
 - Homework 5 - JavaScript / APIs
 
