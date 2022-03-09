@@ -51,12 +51,12 @@ homework    git@github.com:caterinasworld/webdev-homework.git (fetch)
 homework    git@github.com:caterinasworld/webdev-homework.git (push)
 ```
 
-3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev. 
+3. Navigate to your GitHub account and create a new **private repo**, i.e. student-repo-webdev.
 
    Important: Do not create a README file. There’s already one in the repository you have cloned.
 
-4. Add your TA as a collaborator. 
-   
+4. Add your TA as a collaborator.
+
    Go to ‘Settings’ → ‘Manage Access’ → click the “Invite a collaborator’ button. Search for your TA’s username.
    Check Canvas for your TA's username on GitHub.
 
@@ -91,7 +91,7 @@ Compressing objects: 100% (74/74), done.
 Writing objects: 100% (163/163), 68.15 KiB | 13.63 MiB/s, done.
 Total 163 (delta 80), reused 163 (delta 80), pack-reused 0
 remote: Resolving deltas: 100% (80/80), done.
-To github.com:caterinasworld/testing.git
+To github.com:student-username/student-repo-webdev.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
