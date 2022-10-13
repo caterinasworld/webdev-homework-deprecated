@@ -1,5 +1,13 @@
+body {
+    background: rgb(246,219,231);
+    background: radial-gradient(circle, rgba(246,219,231,1) 0%, rgba(194,214,238,1) 100%);
+}
+
+h1 {
+    text-align: center;
+}  
+
 /* Code for exercise 01-flex */
 
 /* Code for exercise 02-grid */
 
-/* Code for exercise 03-bootstrap-form */
