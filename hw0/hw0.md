@@ -11,7 +11,6 @@
    - Install the following extensions:
      - Live Server
      - Git Lens
-     - Bracket Pair Colorizer
      - Prettier
 
 3. Sign up for a GitHub account and the [GitHub Student Pack](https://education.github.com/pack).
